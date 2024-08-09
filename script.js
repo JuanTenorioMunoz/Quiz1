@@ -56,11 +56,11 @@ const scramble = (word) => {
 }
 
 const evaluator = (letter) => {
-    if (letter = wordCorrect.correct) {
+    if (letter = wordCorrect.spliced) {
         console.log("Sos un crack bro")
     }
 }
 
-
+//input.addEventListener("change", evaluator())
 haceMagia3000();
 button.addEventListener("click",haceMagia3000)
